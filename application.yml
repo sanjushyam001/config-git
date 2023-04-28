@@ -1,4 +1,4 @@
-url: http://localhost:9595/insurance/plans
+url: http://localhost:7676/insurance/plans
 
 name: sanjeev
 eureka:
