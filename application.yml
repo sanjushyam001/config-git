@@ -2,7 +2,7 @@ name: sanjeev
 eureka:
   client:
     serviceUrl:
-      defaultZone: ${DISCOVERY_URL:http://localhost:8761}/eureka
+      defaultZone: ${DISCOVERY_URL:http://localhost:8787}/eureka
     register-with-eureka: true
     fetch-registry: true
   instance:
