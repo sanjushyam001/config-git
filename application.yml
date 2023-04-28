@@ -1,11 +1,11 @@
 url: http://localhost:8585/insurance/plans
 
-# name: sanjeev
-# eureka:
-#   client:
-#     serviceUrl:
-#       defaultZone: ${DISCOVERY_URL:http://localhost:8787}/eureka
-#     register-with-eureka: true
-#     fetch-registry: true
-#   instance:
-#     instance-id: ${spring.application.name}:${random.value}
+name: sanjeev
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: ${DISCOVERY_URL:http://localhost:8787}/eureka
+    register-with-eureka: true
+    fetch-registry: true
+  instance:
+    instance-id: ${spring.application.name}:${random.value}
