@@ -1,6 +1,4 @@
-url: http://localhost:5757/insurance/plans
-
-name: sanjeev
+# url: http://localhost:5757/insurance/plans
 eureka:
   client:
     serviceUrl:
