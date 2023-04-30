@@ -1,4 +1,4 @@
-url: http://localhost:5757/insurance/plans
+#url: http://localhost:5757/insurance/plans
 eureka:
   client:
     serviceUrl:
@@ -7,18 +7,17 @@ eureka:
     fetch-registry: true
   instance:
     instance-id: ${spring.application.name}:${random.value}
-# spring:
-#   datasource:
-#       driverClassName: com.mysql.cj.jdbc.Driver
-#       url: jdbc:mysql://localhost:3306/prodcoupon_db
-#       username: root
-#       password: sanjushyam
-#     jpa:
-#       hibernate:
-#         ddl-auto: update
-#         show-sql: true
-#       properties:
-#         hibernate:
-#           format_sql: true
-#           show_sql: true
-#           dialect: org.hibernate.dialect.MySQL8Dialect
+spring:
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/prodcoupon-db
+    username: root
+    password: sanjushyam
+  jpa:
+    hibernate:
+      ddl-auto: update
+      show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+        dialect: org.hibernate.dialect.MySQL8Dialect
