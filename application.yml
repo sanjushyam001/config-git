@@ -1,12 +1,12 @@
 url: http://localhost:5757/insurance/plans
-# eureka:
-#   client:
-#     serviceUrl:
-#       defaultZone: ${DISCOVERY_URL:http://localhost:8787}/eureka
-#     register-with-eureka: true
-#     fetch-registry: true
-#   instance:
-#     instance-id: ${spring.application.name}:${random.value}
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: ${DISCOVERY_URL:http://localhost:8787}/eureka
+    register-with-eureka: true
+    fetch-registry: true
+  instance:
+    instance-id: ${spring.application.name}:${random.value}
 # spring:
 #   datasource:
 #       driverClassName: com.mysql.cj.jdbc.Driver
